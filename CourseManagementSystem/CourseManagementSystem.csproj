@@ -51,6 +51,7 @@
     <Compile Include="AssessmentForm.Designer.cs">
       <DependentUpon>AssessmentForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="clsStudent.cs" />
     <Compile Include="CourseForm.cs">
       <SubType>Form</SubType>
     </Compile>
