@@ -16,5 +16,10 @@ namespace CourseManagementSystem
         {
             InitializeComponent();
         }
+
+        private void EnrolmentForm_Load(object sender, EventArgs e)
+        {
+            Console.WriteLine("YES");
+        }
     }
 }
