@@ -29,26 +29,27 @@ namespace CourseManagementSystem
 
         public clsTeacher(int teacherID)
         {
-            this.teacherID = teacherID;
+            this.TeacherID = teacherID;
         }
 
         public clsTeacher(int teacherID, string firstName, string lastName, string dateOfBirth, string gender, string streetAddress, string suburb, string postCode, string phoneNumber, string email, string commencementDate, string classTaught, string skills, bool leave)
         {
-            this.teacherID = teacherID;
-            this.firstName = firstName;
-            this.lastName = lastName;
-            this.dateOfBirth = dateOfBirth;
-            this.gender = gender;
-            this.streetAddress = streetAddress;
-            this.suburb = suburb;
-            this.postCode = postCode;
-            this.phoneNumber = phoneNumber;
-            this.email = email;
-            this.commencementDate = commencementDate;
-            this.classTaught = classTaught;
-            this.skills = skills;
-            this.leave = leave;
+            this.TeacherID = teacherID;
+            this.FirstName = firstName;
+            this.LastName = lastName;
+            this.DateOfBirth = dateOfBirth;
+            this.Gender = gender;
+            this.StreetAddress = streetAddress;
+            this.Suburb = suburb;
+            this.PostCode = postCode;
+            this.PhoneNumber = phoneNumber;
+            this.Email = email;
+            this.CommencementDate = commencementDate;
+            this.ClassTaught = classTaught;
+            this.Skills = skills;
+            this.Leave = leave;
         }
+
 
         public int TeacherID { get => teacherID; set => teacherID = value; }
         public string FirstName { get => firstName; set => firstName = value; }

@@ -39,7 +39,7 @@ namespace CourseManagementSystem
             this.lastName = lastName;
         }
 
-        public clsStudent(int studentID, string firstName, string lastName, string dateOfBirth, string gender, string streetAddress, string suburb, int postCode, int phoneNumber, string email, string nationality, bool disability)
+        public clsStudent(int studentID, string firstName, string lastName, string dateOfBirth, string gender, string streetAddress, string suburb, int postCode, string phoneNumber, string email, string nationality, bool disability)
         {
             this.studentID = studentID;
             this.firstName = firstName;
@@ -63,7 +63,7 @@ namespace CourseManagementSystem
         public string StreetAddress { get => streetAddress; set => streetAddress = value; }
         public string Suburb { get => suburb; set => suburb = value; }
         public int PostCode { get => postCode; set => postCode = value; }
-        public int PhoneNumber { get => phoneNumber; set => phoneNumber = value; }
+        public string PhoneNumber { get => phoneNumber; set => phoneNumber = value; }
         public string Email { get => email; set => email = value; }
         public string Nationality { get => nationality; set => nationality = value; }
         public bool Disability { get => disability; set => disability = value; }
