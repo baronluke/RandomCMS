@@ -120,5 +120,10 @@ namespace CourseManagementSystem
                 return false;
             }
         }
+
+        public void something()
+        {
+
+        }
     }
 }
