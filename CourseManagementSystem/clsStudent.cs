@@ -125,5 +125,10 @@ namespace CourseManagementSystem
         {
 
         }
+
+        public void somethingElse()
+        {
+
+        }
     }
 }
