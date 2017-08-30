@@ -16,7 +16,7 @@ namespace CourseManagementSystem
         private string gender;
         private string streetAddress;
         private string suburb;
-        private int postCode;
+        private string postCode;
         private string phoneNumber;
         private string email;
         private string nationality;
@@ -39,7 +39,7 @@ namespace CourseManagementSystem
             this.lastName = lastName;
         }
 
-        public clsStudent(int studentID, string firstName, string lastName, string dateOfBirth, string gender, string streetAddress, string suburb, int postCode, string phoneNumber, string email, string nationality, bool disability)
+        public clsStudent(int studentID, string firstName, string lastName, string dateOfBirth, string gender, string streetAddress, string suburb, string postCode, string phoneNumber, string email, string nationality, bool disability)
         {
             this.studentID = studentID;
             this.firstName = firstName;
@@ -62,7 +62,7 @@ namespace CourseManagementSystem
         public string Gender { get => gender; set => gender = value; }
         public string StreetAddress { get => streetAddress; set => streetAddress = value; }
         public string Suburb { get => suburb; set => suburb = value; }
-        public int PostCode { get => postCode; set => postCode = value; }
+        public string PostCode { get => postCode; set => postCode = value; }
         public string PhoneNumber { get => phoneNumber; set => phoneNumber = value; }
         public string Email { get => email; set => email = value; }
         public string Nationality { get => nationality; set => nationality = value; }
